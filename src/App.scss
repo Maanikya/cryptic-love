@@ -129,24 +129,13 @@ body {
     color: white;
     font-size: 60px;
     font-weight: 700;
-    letter-spacing: 8px;
-    margin-bottom: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
     background: transparent;
     position: relative;
     animation-name: text1;
     animation-duration: 8s;
-    animation-iteration-count: infinite;
-}
-
-.text2 {
-    font-size: 1.8rem;
-    font-weight: 800;
-    background: transparent;
-    position: relative;
-    color: pink;
-    animation-name: text2;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 @keyframes text1 {
@@ -198,6 +187,18 @@ body {
     }
 }
 
+.text2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    background: transparent;
+    position: relative;
+    color: pink;
+    letter-spacing: 20px;
+    animation-name: text2;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+}
+
 @keyframes text2 {
     0% {
         opacity: 0;
@@ -212,55 +213,55 @@ body {
         opacity: 0%;
     }
     55% {
-        letter-spacing: 10px;
+        letter-spacing: 20px;
         font-size: 1.8rem;
         font-weight: 800;
         opacity: 5%;
     }
     60% {
-        letter-spacing: 10px;
+        letter-spacing: 20px;
         font-size: 1.8rem;
         font-weight: 800;
         opacity: 100%;
     }
     70% {
-        letter-spacing: 10px;
+        letter-spacing: 20px;
         font-size: 1.8rem;
         font-weight: 800;
         opacity: 100%;
     }
     75% {
-        letter-spacing: 10px;
+        letter-spacing: 20px;
         font-size: 1.8rem;
         font-weight: 800;
         opacity: 100%;
     }
     80% {
-        letter-spacing: 10px;
+        letter-spacing: 20px;
         font-size: 1.8rem;
         font-weight: 800;
         opacity: 100%;
     }
     85% {
-        letter-spacing: 10px;
+        letter-spacing: 20px;
         font-size: 1.8rem;
         font-weight: 800;
         opacity: 100%;
     }
     90% {
-        letter-spacing: 10px;
+        letter-spacing: 20px;
         font-size: 1.8rem;
         font-weight: 800;
         opacity: 100%;
     }
     95% {
-        letter-spacing: 10px;
+        letter-spacing: 20px;
         font-size: 1.8rem;
         font-weight: 800;
         opacity: 100%;
     }
     100% {
-        letter-spacing: 10px;
+        letter-spacing: 20px;
         font-size: 1.8rem;
         font-weight: 800;
         opacity: 100%;
@@ -272,7 +273,7 @@ body {
     top: 60%;
     left: 50%;
     width: 100%;
-    letter-spacing: 20px;
+    letter-spacing: 30px;
     transform: translateX(-50%) translateY(-50%);
     font-family: "Montserrat";
     text-align: center;
@@ -290,10 +291,35 @@ h3 {
     margin: 0;
     line-height: 1;
     color: #eeeeee;
-    letter-spacing: 2px;
+    letter-spacing: 30px;
     animation-name: text3;
     animation-duration: 8s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+}
+
+@keyframes text3 {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0%;
+    }
+    40% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    75% {
+        color: #eeeeee;
+        letter-spacing: 15px;
+        opacity: 2%;
+    }
+    100% {
+        color: #fafafa;
+        letter-spacing: 30px;
+        opacity: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -302,7 +328,7 @@ h3 {
         top: 65%;
         left: 50%;
         width: 100%;
-        letter-spacing: 5px;
+        letter-spacing: 15px;
         transform: translateX(-50%) translateY(-50%);
         font-family: "Montserrat";
         text-align: center;
@@ -320,10 +346,10 @@ h3 {
         margin: 0;
         line-height: 1;
         color: #eeeeee;
-        letter-spacing: 2px;
+        letter-spacing: 15px;
         animation-name: text-mini3;
         animation-duration: 8s;
-        animation-iteration-count: infinite;
+        animation-iteration-count: 1;
     }
 
     @keyframes text-mini3 {
@@ -349,31 +375,6 @@ h3 {
             letter-spacing: 15px;
             opacity: 100%;
         }
-    }
-}
-
-@keyframes text3 {
-    0% {
-        opacity: 0;
-    }
-    30% {
-        opacity: 0%;
-    }
-    40% {
-        opacity: 0%;
-    }
-    50% {
-        opacity: 0%;
-    }
-    75% {
-        color: #eeeeee;
-        letter-spacing: 15px;
-        opacity: 2%;
-    }
-    100% {
-        color: #fafafa;
-        letter-spacing: 30px;
-        opacity: 100%;
     }
 }
 

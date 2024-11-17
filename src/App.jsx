@@ -22,7 +22,7 @@ const App = () => {
                 setIsPasswordCorrect(true);
             }, 1000);
         } else {
-            alert("Try harder pookie 🥺");
+            alert("Try harder 🥺");
         }
     };
 
@@ -35,7 +35,9 @@ const App = () => {
                 </div>
                 <div className="title3">
                     <h3>
-                        -<strong>M K L N X</strong>
+                        {"->"}
+                        <strong>M K L N X</strong>
+                        {"<-"}
                     </h3>
                 </div>
             </>
